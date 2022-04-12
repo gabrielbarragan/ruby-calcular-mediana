@@ -2,6 +2,8 @@
 
 Crea el método `median` que recibe como parámetro un `Array` de números y regresa la `mediana`.
 
+>Restricción: No usar estructura condicional `if-else`.
+
 
 ```ruby
 #Driver code
