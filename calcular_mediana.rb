@@ -2,11 +2,12 @@ if __FILE__ == $PROGRAM_NAME
 
     def median(lista)
         midd = lista.length / 2
+        lista = lista.sort
 
         lista.length % 2 == 0 ? mediana = (lista[midd] + lista[midd -1 ]) / 2.0 : mediana = lista[midd]
       
-
         return mediana
+        
     end
 
 
